@@ -1,0 +1,56 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+.card {
+  // margin: 16px;
+  // flex-basis: 250px;
+  // max-width: 250px;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 8px 8px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+  // padding: 0;
+  // width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.card-footer {
+  height: 30px;
+  width: 100%;
+  padding: 0 8px;
+}
+
+
+.card-info  {
+  padding: 8px;
+  flex-grow: 1;
+}
+
+p {
+  margin: 0;
+}
+
