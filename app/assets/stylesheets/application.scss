@@ -12,10 +12,23 @@
 @import "components/index";
 @import "pages/index";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
+
+body {
+  background-color: white;
+  // font-family: 'Montserrat', sans-serif !important;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .card {
-  // margin: 16px;
-  // flex-basis: 250px;
-  // max-width: 250px;
   width: 300px;
   height: 180px;
   display: flex;
@@ -27,30 +40,16 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  
-  // padding: 0;
-  // width: 100%;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-
 }
 
 .card-footer {
-  height: 30px;
   width: 100%;
   padding: 0 8px;
+  background-color: #e3f2fd;
 }
-
 
 .card-info  {
   padding: 8px;
   flex-grow: 1;
-}
-
-p {
-  margin: 0;
 }
 
